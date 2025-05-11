@@ -17,11 +17,40 @@
   .nav-links {
     display: flex;
     gap: 1.5rem;
+    align-items: center;
     
     a {
       font-size: 1rem;
     }
   }
+
+  .linkedin-icon {
+    height: 50px;
+    width: 50px;
+    display: block;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    filter: grayscale(100%);
+  }
+  
+  .linkedin-icon:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+
+  .github-icon {
+    height: 36px;
+    width: 36px;
+    display: block;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    filter: grayscale(100%);
+  }
+  
+  .github-icon:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+
+  
   
   // Profile section
   .profile-container {
